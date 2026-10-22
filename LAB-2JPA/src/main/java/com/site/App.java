@@ -62,6 +62,7 @@ public class App {
 
         // update
         updateStudentName("Redite", 1);
+        
         updateStudentNameAndTech("Redite", "Java", 1);
         System.out.println(getStudentById(1));
 
