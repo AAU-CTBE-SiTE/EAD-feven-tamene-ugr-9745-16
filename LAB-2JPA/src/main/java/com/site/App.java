@@ -52,10 +52,10 @@ public class App {
 
     public static void main(String[] args) {
         // create
-//        Student s = new Student();
-//        s.setName("Feven Tamene");
-//        s.setTech("Python");
-//        createStudent(s);
+       Student s = new Student();
+       s.setName("Feven Tamene");
+       s.setTech("Python");
+       createStudent(s);
 
         // read
         System.out.println(getStudentById(1));
@@ -68,5 +68,5 @@ public class App {
 
         // delete
         deleteStudentById(1);
-        // System.out.println("After delete: " + getStudentById(s.getId()));
+        System.out.println("After delete: " + getStudentById(s.getId()));
     }}
