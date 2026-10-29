@@ -12,9 +12,6 @@ public class Student {
     private int age;
     private Address address;
 
-    public String getStudentType() {
-        return "Student";
-    }
 
     public void getDetails() {
         System.out.println("Student Details: " + this);
