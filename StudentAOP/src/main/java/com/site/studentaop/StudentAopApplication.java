@@ -10,7 +10,7 @@ public class StudentAopApplication implements CommandLineRunner {
 
     private final StudentService studentService;
 
-    // Constructor injection
+    // CI
     public StudentAopApplication(StudentService studentService) {
         this.studentService = studentService;
     }
